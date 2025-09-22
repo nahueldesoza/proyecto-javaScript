@@ -1,10 +1,10 @@
 
 function ingreseNombre (){
-    let nombre = prompt ("Ingrese su nombre");
+    let nombre = prompt ("Ingrese su nombre: ");
     return (nombre);
 }
 function ingreseEdad (){
-    let edad = prompt ("Ingrese su edad");
+    let edad = prompt ("Ingrese su edad: ");
     return (edad);
 }
 function mostrar (nombre,edad){
