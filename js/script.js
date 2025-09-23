@@ -36,7 +36,7 @@ while (nombreEntrada != 0){
     datosEntradas.push (objetoEntrada)
     nombreEntrada = prompt("Ingrese los nombres para la entrada del recital (valor cero para salir):")
 }
-alert (datosEntradas.length)
+
 for (i=0;i<datosEntradas.length;i++){
     alert ("El cliente "+ datosEntradas[i].nombre +" con apellido "+ datosEntradas[i].apellido +" saco entrada para la fecha "+ datosEntradas[i].fecha)
 }
